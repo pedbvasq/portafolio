@@ -158,8 +158,15 @@ export class AppComponent {
 
     //ESPACIO ESTUDIANTE 6
     this.celdas[0][2] = {imagen:"../assets/kevin/frogal.jpg" , parrafo:'Un ladrón deberá escapar de un museo abandonado luego de despertar un sapo mitológico al robar una reliquia.'};
-
-
+    this.celdas[1][2] = {imagen:"../assets/kevin/froggy-the-series.jpg" , parrafo:'Un niño deberá sobrevivir de una espíritu maligno que toma la forma de Froggy, una estrella de una serie infantil.'};
+    this.celdas[2][2] = {imagen:"../assets/kevin/frogmare.jpg" , parrafo:'Los jugadores se encuentran en un pantano abandonado donde los sapos se han vuelto malignos y sedientos de sangre. Deben luchar por su supervivencia y descubrir el misterio detrás de la siniestra transformación de los sapos.'};
+    this.celdas[3][2] = {imagen:"../assets/kevin/frogkill.jpg" , parrafo:'Un apocalipsis de sapos ha invadido la Tierra, y los jugadores deben luchar contra hordas de sapos zombis y mutantes mientras buscan refugio y una manera de detener esta plaga anfibia.'};
+    this.celdas[4][2] = {imagen:"../assets/kevin/frogmaze.jpg" , parrafo:'Los jugadores exploran un mundo mágico y siniestro donde los sapos son los gobernantes y los humanos son considerados intrusos. Deben escapar de las garras de estos sapos malévolos y encontrar una forma de regresar a su propio mundo.'};
+    this.celdas[5][2] = {imagen:"../assets/kevin/frogscape.jpg" , parrafo:'En este juego de terror, los jugadores deben resolver acertijos y enfrentar desafíos a medida que se adentran en un pantano habitado por sapos que pueden ser encantadores pero mortales.'};
+    this.celdas[6][2] = {imagen:"../assets/kevin/frogpocalypse.jpg" , parrafo:'En este juego, los jugadores se convierten en cazadores de sapos malditos que acechan en la noche. Deben enfrentar desafíos sobrenaturales mientras buscan y eliminan a los sapos que han sido corrompidos por la magia oscura.'};
+    this.celdas[7][2] = {imagen:"../assets/kevin/frognaf.jpg" , parrafo:'Los jugadores asumen el papel de un científico que ha llegado a un pantano misterioso para investigar una epidemia que ha transformado a los sapos en seres terroríficos. Deben descubrir la causa detrás de la mutación y encontrar una cura.'};
+    this.celdas[8][2] = {imagen:"../assets/kevin/manglar.jpg" , parrafo:'Después de años de contaminación en un lago, un sapo gigante se despierta y comienza a aterrorizar una pequeña ciudad. Los jugadores deberán abrirse paso por el manglar tomando control del sapo mutante y destruir todo.'};
+    this.celdas[9][2] = {imagen:"../assets/kevin/pantano.jpg" , parrafo:'Los jugadores exploran un antiguo pantano olvidado donde los sapos han sido usados en rituales oscuros. Deben desvelar secretos ancestrales y enfrentar criaturas sobrenaturales para liberar a los sapos de su sufrimiento.'};
 
 
 
