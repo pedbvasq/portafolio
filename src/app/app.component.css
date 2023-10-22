@@ -1,0 +1,19 @@
+/* matriz.component.css */
+
+.matriz {
+    border-collapse: collapse;
+    margin: 20px;
+  }
+  
+  .celda {
+    width: 100px; /* Ajusta el tamaño de la celda según tus necesidades */
+    height: 100px; /* Ajusta el tamaño de la celda según tus necesidades */
+    border: 1px solid #000;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  

@@ -1,0 +1,10 @@
+<!-- matriz.component.html -->
+
+<table class="matriz">
+  <tr *ngFor="let row of celdas; let i = index">
+    <td *ngFor="let celda of row; let j = index" class="celda">
+      <img [src]="celda.imagen" alt="Imagen">
+      <p>{{ celda.parrafo }}</p>
+    </td>
+  </tr>
+</table>
