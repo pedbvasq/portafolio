@@ -12,11 +12,132 @@ export class AppComponent {
   constructor() {
     this.celdas = Array.from({ length: 10 }, () => Array(10).fill({ imagen: '', parrafo: '' }));
 
-    // Asigna valores diferentes para cada celda
+    //ESPACIO PARA PEDRO
     this.celdas[0][0] = { imagen: "../assets/pedro/EscapeDecarcel.png", parrafo: 'Es un juego 2d donde un ladron tiene que escapar de los guardias para hacerlo no tiene que ser visto, puede trepar paredes o esconderse, los guardias tienen linternas si lo notan lo llevaran a la carcel de nuevo' };
-    this.celdas[0][1] = { imagen: 'imagen2.jpg', parrafo:'Texto2' };
-    this.celdas[1][0] = { imagen: 'imagen3.jpg', parrafo: 'Texto 3' };
-    // y así sucesivamente...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //ESPACIO PARA JAVIER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //ESPACIO AARON
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //ESPACIO ESTUDIANTE 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //ESPACIO ESTUDIANTE 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //ESPACIO ESTUDIANTE 6
+
+
   }
-}
+  }
+
 
