@@ -89,9 +89,11 @@ export class AppComponent {
     this.celdas[5][6] = { imagen: "../assets/javier/choreo3.jpg", parrafo: 'Eres guardia en un banco y debes decidir si dejar pasar a las personas que van llegando, si dejas pasar a un ladron pierdes.' };
     this.celdas[6][6] = { imagen: "../assets/javier/choreo4.jpg", parrafo: 'Eres jefe de un atraco a un banco y sospechas que hay un soplon en tu equipo, debes descubrir quien es durante la mision antes del momento de su traicion.' };
 
+    this.celdas[9][6] = { imagen: "../assets/javier/choreo5.jpg", parrafo: 'Eres un ladron y hay tres personas a las que les vas a robar, ellos te cuentan sus historias de vida y porque no quieren que les robes, al final deberas robarle al menos a uno.' };
+    this.celdas[5][7] = { imagen: "../assets/javier/tiburon5.jpg", parrafo: 'Cada ves que salvas a un humano aumenta el nivel de confianza que ellos tienen en ti, esto te da mas poder.' };
 
-
-
+    this.celdas[0][4] = { imagen: "../assets/javier/perro.jpg", parrafo: 'Estas en una casa en el bosque y tu celular se daño, debes repararlo para pedir ayuda. Hay un perro monstruo que entrara a tu casa a buscarte, debes esconderte de el puesto que si te encuentra te matara.' };
+    this.celdas[0][5] = { imagen: "../assets/javier/espolzombies.jpg", parrafo: 'Un autobus da vueltas por la espol eternamente, debes sobrevivir ordas de zombies. Hay armas y municion exparsidos por la universidad,' };
 
 
 
