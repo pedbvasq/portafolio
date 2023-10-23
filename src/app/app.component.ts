@@ -35,30 +35,6 @@ export class AppComponent {
     this.celdas[1][9] = { imagen: "../assets/pedro/escapedeisla1.1.png", parrafo: 'exite una opcion donde puedes subirte a una moto acuatica' };
     this.celdas[2][9] = { imagen: "../assets/pedro/escapedeisla1.2.png", parrafo: 'para escapar de la isla debera pasar por 4 niveles , de agua,fuego, tierra y aire.' };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     //ESPACIO PARA JAVIER
 
 
@@ -95,8 +71,6 @@ export class AppComponent {
     this.celdas[0][4] = { imagen: "../assets/javier/perro.jpg", parrafo: 'Estas en una casa en el bosque y tu celular se daño, debes repararlo para pedir ayuda. Hay un perro monstruo que entrara a tu casa a buscarte, debes esconderte de el puesto que si te encuentra te matara.' };
     this.celdas[0][5] = { imagen: "../assets/javier/espolzombies.jpg", parrafo: 'Un autobus da vueltas por la espol eternamente, debes sobrevivir ordas de zombies. Hay armas y municion exparsidos por la universidad,' };
 
-
-
     //ESPACIO AARON
 
     //Mis ideas
@@ -115,8 +89,8 @@ export class AppComponent {
     this.celdas[5][0] = { imagen: "../assets/aaron/prision_respawn.jpg", parrafo: 'Si te vuelven a capturar respawneas pero en una prision de mayor seguridad' };
     this.celdas[6][0] = { imagen: "../assets/aaron/prision_vigia.jpg", parrafo: 'Los guardias a veces se duermen pero si son alertados entrar en estado de vigia' };
 
-    this.celdas[3][8] = { imagen: "../assets/aaron/kungfu_puntos.jpg", parrafo: 'El tiburon gana xp y puntos alimentadnose de peces en el camino' };
-    this.celdas[4][8] = { imagen: "../assets/aaron/kungfu_tipos.jpg", parrafo: 'Hay varios tipos de tiburones con especialidades de pelea' };
+    this.celdas[8][7] = { imagen: "../assets/aaron/kungfu_puntos.jpg", parrafo: 'El tiburon gana xp y puntos alimentadnose de peces en el camino' };
+    this.celdas[9][7] = { imagen: "../assets/aaron/kungfu_tipos.jpg", parrafo: 'Hay varios tipos de tiburones con especialidades de pelea' };
 
     this.celdas[1][4] = { imagen: "../assets/aaron/perroescondite_distraer.jpg", parrafo: 'Se puede distraer al perro lanzando huesos, comida, etc' };
     this.celdas[2][4] = { imagen: "../assets/aaron/perroescondite_domar.jpg", parrafo: 'Se puede domar otros perros o animales para protegerte' };
@@ -130,77 +104,30 @@ export class AppComponent {
     this.celdas[3][5] = { imagen: "../assets/aaron/zombiespol_clases.jpg", parrafo: 'Cada facultad tiene clases, es decir alumnos especializados en areas que serviran para sobrevivir, ejemplo: medico, mecanico, artillero, hacker, etc' };
     this.celdas[4][5] = { imagen: "../assets/aaron/zombiespol_zonasseguras.jpg", parrafo: 'Las zonas seguras pueden ser comedores, o ubep, donde se puede recuperar puntos de vida' };
 
+    //Bryan
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    //ESPACIO ESTUDIANTE 4
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    this.celdas[9][0] = { imagen: "../assets/bryan/escape1.10.jpg", parrafo: 'Simulando las tuberias de mario bross, existiran ventanas a las que puedas ingresar y utilizarlas como atajo para avanzar a otro punto de la ruta' };
+    this.celdas[0][1] = { imagen: "../assets/bryan/monigote2.1.jpg", parrafo: 'Una persona intenta llegar a salvo del peligro que presentan los diferentes puntos de fuego en donde se están quemando los monigotes.' };
+    this.celdas[5][1] = { imagen: "../assets/bryan/monigote2.6.jpg", parrafo: 'En lugar de escapar, el jugador debe apagar el incendio descontrolado que causo la quema de lo monigotes usando el agua de la playa.' };
+    this.celdas[6][1] = { imagen: "../assets/bryan/monigote2.7.jpg", parrafo: 'El jugador debe ingeniarselas y escoger entre diferentes rutas para alcanzar lelvar su monigote al punto dispuesto para la quema.' };
+    this.celdas[7][1] = { imagen: "../assets/bryan/monigote2.8.jpg", parrafo: 'No existe salida y las llamas nunca se apagan, pero su intensidad varias con el tiempo permitiendo al jugador pasar entre ellas. El objetivo es sobrevivir el mayor tiempo posible.' };
+    this.celdas[8][1] = { imagen: "../assets/bryan/monigote2.9.jpg", parrafo: '.' };
+    this.celdas[9][1] = { imagen: "../assets/bryan/monigote2.10.jpg", parrafo: '.' };
+    this.celdas[9][4] = { imagen: "../assets/bryan/perro5.10.jpg", parrafo: 'El olfato del perro será más agudo con el tiempo por lo que al pasar un rato se convertirá en un juego contrareloj dado que el perro te perseguirá en todo momento.' };
+    this.celdas[7][5] = { imagen: "../assets/bryan/espol6.8.jpg", parrafo: 'Existirán diferentes tipos de zombies que variran del lugar en donde se encuentren. Acuatios en el lago, veloces en la carretera, etc.' };
+    this.celdas[8][5] = { imagen: "../assets/bryan/espol6.9.jpg", parrafo: 'El equipamiento será más útil en unos lugares que en otros, por lo que puede ser una vestanja o desventaja si no se lo usa correctamente.' };
+    this.celdas[9][5] = { imagen: "../assets/bryan/espol6.10.jpg", parrafo: 'Existen zombies que manejan vehículos y persiguen el bus mientras tu intentas derribarles lanzandoles libros para que no te alcancen.' };
+    this.celdas[7][6] = { imagen: "../assets/bryan/choreo7.8.jpg", parrafo: 'El bus ingresa por un tunel por lo que todo el interior se oscurece y al salir se percatan que alguien hha extraviado un objeto de cada pasajero. Bajo votacion deben descrubrir al ladron antes de ingresar al otro tunel y se escape.' };
+    this.celdas[8][6] = { imagen: "../assets/bryan/choreo7.9.jpg", parrafo: 'El choro ha robado y tiene que ingeniarse para escapar del bus sin parecer sospechoso sin que las victimas se den cuenta.' };
+    this.celdas[6][7] = { imagen: "../assets/bryan/tiburon8.7.jpg", parrafo: 'El tiburon se encuentra debilitado y se alimenta diferentes peces para recargar energía. Debe cazarlos y alimentarse en el menos tiempo posible.' };
+    this.celdas[7][7] = { imagen: "../assets/bryan/tiburon8.8.jpg", parrafo: 'El tiburon consigue una contusion cerebral en unas de sus peleas por lo que se vuelve malvado y ataca a los humanos. Estos deben escapar y hallar la manera de que el tiburon les recuerde.' };
+    this.celdas[7][8] = { imagen: "../assets/bryan/puzzle9.8.jpg", parrafo: 'Cada pista dentro del laberinto permitirá pasar a otra pista de manera desordenada teniendo que recorrer el lberinto varias veces para poder superar todos los retos.' };
+    this.celdas[8][8] = { imagen: "../assets/bryan/puzzle9.9.jpg", parrafo: 'Existe un limite de tiempo en que la pista se encontrará habilitada en dicha area. Luego del limite se cambiara de lugar por lo que tocará buscarlo.' };
+    this.celdas[9][8] = { imagen: "../assets/bryan/puzzle9.10.jpg", parrafo: 'Exisitiran caminos trampa dentro del laberinto en donde debes responder un acertijo para continuar. En caso de fallar volveras al inicio y tendrás que pasar por todo de nuevo.' };
+    this.celdas[6][9] = { imagen: "../assets/bryan/isla10.7.jpg", parrafo: '.' };
+    this.celdas[7][9] = { imagen: "../assets/bryan/isla10.8.jpg", parrafo: '.' };
 
     //ESPACIO ESTUDIANTE 5
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -230,8 +157,6 @@ export class AppComponent {
 
     
     this.celdas[0][7] = {imagen :"../assets/kevin/shark-fu.jpg", parrafo: 'Un tiburón experto en artes marciales deberá enfrentarse a los peligros del mar para proteger a los nadadores locales.'};
-
-
 
   }
   
