@@ -217,7 +217,6 @@ export class AppComponent {
     this.celdas[9][2] = {imagen:"../assets/kevin/pantano.jpg" , parrafo:'Los jugadores exploran un antiguo pantano olvidado donde los sapos han sido usados en rituales oscuros. Deben desvelar secretos ancestrales y enfrentar criaturas sobrenaturales para liberar a los sapos de su sufrimiento.'};
 
 
-
     this.celdas[0][3] = {imagen :"../assets/kevin/tears-o-love.jpg", parrafo: 'Los jugadores tomarán el control de una pareja de casados que se odian por igual. Ambos quieren deshacerse del otro y usan sus bodas de oro como excusa para acabar con la vida del otro.'};
     this.celdas[1][3] = {imagen :"../assets/kevin/hunting-grounds.jpg", parrafo: 'Es un simulador de caza donde cazarecompensas de monstruos deberán construir jaulas para capturar seres bestiales y peligrosos.'};
     this.celdas[2][3] = {imagen :"../assets/kevin/fishing_day.jpg", parrafo: 'Los jugadores encarnan a dos amigos de la infancia que se juntan para tener un divertido día de pesca. Dos jugaores competirán para capturar la mayor cantidad de peces posibles.'};
@@ -228,6 +227,11 @@ export class AppComponent {
     this.celdas[7][3] = {imagen :"../assets/kevin/heart-in-a-cage.jpg", parrafo: 'Los jugadores se enfrentarán a una carrera contra el tiempo en este juego de plataformas surreal.'};
     this.celdas[8][3] = {imagen :"../assets/kevin/cage-me.jpg", parrafo: 'En este juego competitivo hay dos bandos. Los protectores y los vampiros. Los protectores deberán vigilar a los vampiros para que no escapen de sus jaulas.'};
     this.celdas[9][3] = {imagen :"../assets/kevin/blue-rush.jpg", parrafo: 'En este juego competitivo, los jugadores deberán evitar criaturas marinas y rocas para no chocar y no dañar sus cápsulas de viaje.'};
+
+    
+    this.celdas[0][7] = {imagen :"../assets/kevin/shark-fu.jpg", parrafo: 'Un tiburón experto en artes marciales deberá enfrentarse a los peligros del mar para proteger a los nadadores locales.'};
+
+
 
   }
   
