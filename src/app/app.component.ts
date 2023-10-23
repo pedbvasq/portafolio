@@ -62,16 +62,32 @@ export class AppComponent {
     //ESPACIO PARA JAVIER
 
 
+    this.celdas[3][6] = { imagen: "../assets/javier/choreo1.3.jpg", parrafo: 'El conductor secuentra el bus y ahora debes escapar de el antes de que te roben.' };
+    this.celdas[4][6] = { imagen: "../assets/javier/choreo1.4.jpg", parrafo: 'El ladron va a robarle a una persona que no eres tu, debes identificar a esta persona antes de que el ladron se acerque a robarle y advertirle para salir del bus.' };
 
+    this.celdas[3][7] = { imagen: "../assets/javier/tiburon1.3.jpg", parrafo: 'Si golpea a algun humano por accidente estos lo atacaran de vuelta.' };
+    this.celdas[4][7] = { imagen: "../assets/javier/tiburon1.4.jpg", parrafo: 'Que los enemigos usen habilidades de artes marciales y al derrotarlos aprenderlas.' };
 
+    this.celdas[5][8] = { imagen: "../assets/javier/laberinto1.3.jpg", parrafo: 'Eres un niño pequeño en el laberinto y te persigue una sombra, al final del juego descubres que la sombra siempre fuiste tu mismo.' };
+    this.celdas[6][8] = { imagen: "../assets/javier/laberinto1.4.jpg", parrafo: 'El laberinto es un espacio pequeño y el piso esta mojado, conforme pasa el tiempo el nivel de agua sube, si no escapas a tiempo terminaras agohandote. El agua hace que vayas mas lento y no sabes nadar.' };
 
+    this.celdas[4][9] = { imagen: "../assets/javier/escapeisla2.jpg", parrafo: 'Puedes atacar a los policias para tomar su ropa y ser inmune a la luz por unos segundos.' };
+    this.celdas[5][9] = { imagen: "../assets/javier/escapeisla1.jpg", parrafo: 'En lugar de escapar de una prision estas tratando de escapar de un monstruo con vision limitada.' };
 
+    this.celdas[3][1] = { imagen: "../assets/javier/monigote1.jpg", parrafo: 'Hay un monigote gigantes con explisivos que explota cuando se acerca a ti.' };
+    this.celdas[4][1] = { imagen: "../assets/javier/monigote2.jpg", parrafo: 'En lugar de escapar del fuego estas atrapando a las personas para ponerlas en el fuego, todo esto para realizar una invocacion del diablo para hacer un pacto con este y devolvertle la vida a tu madre.' };
 
+    this.celdas[7][4] = { imagen: "../assets/javier/perro2.jpg", parrafo: 'Cada noche se duplica la cantidad de perros buscandote' };
+    this.celdas[8][4] = { imagen: "../assets/javier/perro1.jpg", parrafo: 'Durante el dia el perro desaparece y puedes salir a recolectar cosas.' };
 
+    this.celdas[5][5] = { imagen: "../assets/javier/zombiesespol1.jpg", parrafo: 'Debes aguantar la orda de zombies junto al monumento espol hasta que lleguen a rescatarte en helicptero.' };
+    this.celdas[6][5] = { imagen: "../assets/javier/zombiesespol2.jpg", parrafo: 'Hay diferentes tipos de zombies segun el tipo de estudiante infectado. Hay zombies inteligentes.' };
 
+    this.celdas[7][0] = { imagen: "../assets/javier/escapecarcel1.jpg", parrafo: 'Tienes una barra de estamina, lo que significa que nop puedes estar trepado en las paredes por mucho tiempo y no puedes correr sin cansarte.' };
+    this.celdas[8][0] = { imagen: "../assets/javier/escapecarcel2.jpg", parrafo: 'Mientras vas avanzando en los niveles descubres que hay un monstruo en la carcel que esta matando a todos los policias, asi que pasas de escapar de policias a escapar de un monstruo' };
 
-
-
+    this.celdas[5][6] = { imagen: "../assets/javier/choreo3.jpg", parrafo: 'Eres guardia en un banco y debes decidir si dejar pasar a las personas que van llegando, si dejas pasar a un ladron pierdes.' };
+    this.celdas[6][6] = { imagen: "../assets/javier/choreo4.jpg", parrafo: 'Eres jefe de un atraco a un banco y sospechas que hay un soplon en tu equipo, debes descubrir quien es durante la mision antes del momento de su traicion.' };
 
 
 
