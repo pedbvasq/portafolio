@@ -111,8 +111,8 @@ export class AppComponent {
     this.celdas[5][1] = { imagen: "../assets/bryan/monigote2.6.jpg", parrafo: 'En lugar de escapar, el jugador debe apagar el incendio descontrolado que causo la quema de lo monigotes usando el agua de la playa.' };
     this.celdas[6][1] = { imagen: "../assets/bryan/monigote2.7.jpg", parrafo: 'El jugador debe ingeniarselas y escoger entre diferentes rutas para alcanzar lelvar su monigote al punto dispuesto para la quema.' };
     this.celdas[7][1] = { imagen: "../assets/bryan/monigote2.8.jpg", parrafo: 'No existe salida y las llamas nunca se apagan, pero su intensidad varias con el tiempo permitiendo al jugador pasar entre ellas. El objetivo es sobrevivir el mayor tiempo posible.' };
-    this.celdas[8][1] = { imagen: "../assets/bryan/monigote2.9.jpg", parrafo: '.' };
-    this.celdas[9][1] = { imagen: "../assets/bryan/monigote2.10.jpg", parrafo: '.' };
+    this.celdas[8][1] = { imagen: "../assets/bryan/monigote2.9.jpg", parrafo: 'Piratas estan atacando la playa. Debes esquivar su cañones mientras los atacas para derribarlos.' };
+    this.celdas[9][1] = { imagen: "../assets/bryan/monigote2.10.jpg", parrafo: 'Un tsunami se aproxima y debes guiar a los turista de la playa correctamente para que escapen sanos y salvos.' };
     this.celdas[9][4] = { imagen: "../assets/bryan/perro5.10.jpg", parrafo: 'El olfato del perro será más agudo con el tiempo por lo que al pasar un rato se convertirá en un juego contrareloj dado que el perro te perseguirá en todo momento.' };
     this.celdas[7][5] = { imagen: "../assets/bryan/espol6.8.jpg", parrafo: 'Existirán diferentes tipos de zombies que variran del lugar en donde se encuentren. Acuatios en el lago, veloces en la carretera, etc.' };
     this.celdas[8][5] = { imagen: "../assets/bryan/espol6.9.jpg", parrafo: 'El equipamiento será más útil en unos lugares que en otros, por lo que puede ser una vestanja o desventaja si no se lo usa correctamente.' };
@@ -124,8 +124,8 @@ export class AppComponent {
     this.celdas[7][8] = { imagen: "../assets/bryan/puzzle9.8.jpg", parrafo: 'Cada pista dentro del laberinto permitirá pasar a otra pista de manera desordenada teniendo que recorrer el lberinto varias veces para poder superar todos los retos.' };
     this.celdas[8][8] = { imagen: "../assets/bryan/puzzle9.9.jpg", parrafo: 'Existe un limite de tiempo en que la pista se encontrará habilitada en dicha area. Luego del limite se cambiara de lugar por lo que tocará buscarlo.' };
     this.celdas[9][8] = { imagen: "../assets/bryan/puzzle9.10.jpg", parrafo: 'Exisitiran caminos trampa dentro del laberinto en donde debes responder un acertijo para continuar. En caso de fallar volveras al inicio y tendrás que pasar por todo de nuevo.' };
-    this.celdas[6][9] = { imagen: "../assets/bryan/isla10.7.jpg", parrafo: '.' };
-    this.celdas[7][9] = { imagen: "../assets/bryan/isla10.8.jpg", parrafo: '.' };
+    this.celdas[6][9] = { imagen: "../assets/bryan/isla10.7.jpg", parrafo: 'Existiran guardias con perros buscando bajo tierra por lo que debera esconderse adecuadamente apra no ser encontrado.' };
+    this.celdas[7][9] = { imagen: "../assets/bryan/isla10.8.jpg", parrafo: 'Tienes la opcion de noquear a los guardias para usar su uniforme y pasar desapercibido de manera temporal.' };
 
     //ESPACIO ESTUDIANTE 5
 
