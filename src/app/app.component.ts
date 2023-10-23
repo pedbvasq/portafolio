@@ -81,6 +81,36 @@ export class AppComponent {
 
     //ESPACIO AARON
 
+    //Mis ideas
+
+    this.celdas[0][9] = { imagen: "../assets/aaron/escape.PNG", parrafo: 'Es un juego en 2d de una prision en medio de un lago, el jugador es un prisionero que debe evitar el campo de vision de las luces para poder escapar del lago.' };
+    this.celdas[0][8] = { imagen: "../assets/aaron/laberinto.PNG", parrafo: 'Juego en 3d, es un laberinto que se repite en bucle, hasta que el jugador logra resolver una serie de acertijos y escapar' };
+    this.celdas[0][6] = { imagen: "../assets/aaron/choreo.PNG", parrafo: 'Juego en tercera persona casual simulador de choreo en busetas, es un simulador que tiene como objetivo identificar actividades sospechosas de delitos en Ecuador, el jugador  debe tomar decisiones acertadas para identificar quien es el ladrón  sin cometer errores, esto antes de que el ladrón logre ejecutar el delito.' };
+
+
+    //Mis variaciones
+
+    this.celdas[1][0] = { imagen: "../assets/aaron/prision_rediseno.jpg", parrafo: 'El juego posee varias habitaciones en 2d con mapa expandible, no un endless runner' };
+    this.celdas[2][0] = { imagen: "../assets/aaron/prision_ataque.jpg", parrafo: 'Se puede atacar a los guardias como medida preventiva para huir' };
+    this.celdas[3][0] = { imagen: "../assets/aaron/prision_distraer.jpg", parrafo: 'Se pueden tirar objetos para distraer y moverse por algun sector' };
+    this.celdas[4][0] = { imagen: "../assets/aaron/prision_matar.jpg", parrafo: 'Se pueden conseguir armas y matar a policias, pero esto generara alertas' };
+    this.celdas[5][0] = { imagen: "../assets/aaron/prision_respawn.jpg", parrafo: 'Si te vuelven a capturar respawneas pero en una prision de mayor seguridad' };
+    this.celdas[6][0] = { imagen: "../assets/aaron/prision_vigia.jpg", parrafo: 'Los guardias a veces se duermen pero si son alertados entrar en estado de vigia' };
+
+    this.celdas[3][8] = { imagen: "../assets/aaron/kungfu_puntos.jpg", parrafo: 'El tiburon gana xp y puntos alimentadnose de peces en el camino' };
+    this.celdas[4][8] = { imagen: "../assets/aaron/kungfu_tipos.jpg", parrafo: 'Hay varios tipos de tiburones con especialidades de pelea' };
+
+    this.celdas[1][4] = { imagen: "../assets/aaron/perroescondite_distraer.jpg", parrafo: 'Se puede distraer al perro lanzando huesos, comida, etc' };
+    this.celdas[2][4] = { imagen: "../assets/aaron/perroescondite_domar.jpg", parrafo: 'Se puede domar otros perros o animales para protegerte' };
+    this.celdas[3][4] = { imagen: "../assets/aaron/perroescondite_evol.jpg", parrafo: 'Con el paso de los niveles, el perro se hace mas grande y fuerte, es decir que evoluciona' };
+    this.celdas[4][4] = { imagen: "../assets/aaron/perroescondite_lento.jpg", parrafo: 'Si estas herido, caminas mas lento y no puedes correr' };
+    this.celdas[5][4] = { imagen: "../assets/aaron/perroescondite_niveles.jpg", parrafo: 'Cada noche es un nivel, se debe sobrevivir una n cantidad de noches' };
+    this.celdas[6][4] = { imagen: "../assets/aaron/perroescondite_tranquil.jpg", parrafo: 'Existe una pistola con dardos tranquilizantes para usar en el perro por emergencias' };
+
+    this.celdas[3][9] = { imagen: "../assets/aaron/prisionlago_sabotear.jpg", parrafo: 'Existe la posibilidad de sabotear las torres de luz para ganar ventaja' };
+
+    this.celdas[3][5] = { imagen: "../assets/aaron/zombiespol_clases.jpg", parrafo: 'Cada facultad tiene clases, es decir alumnos especializados en areas que serviran para sobrevivir, ejemplo: medico, mecanico, artillero, hacker, etc' };
+    this.celdas[4][5] = { imagen: "../assets/aaron/zombiespol_zonasseguras.jpg", parrafo: 'Las zonas seguras pueden ser comedores, o ubep, donde se puede recuperar puntos de vida' };
 
 
 
