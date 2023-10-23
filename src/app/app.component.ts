@@ -62,16 +62,32 @@ export class AppComponent {
     //ESPACIO PARA JAVIER
 
 
+    this.celdas[3][6] = { imagen: "../assets/javier/choreo1.3.jpg", parrafo: 'El conductor secuentra el bus y ahora debes escapar de el antes de que te roben.' };
+    this.celdas[4][6] = { imagen: "../assets/javier/choreo1.4.jpg", parrafo: 'El ladron va a robarle a una persona que no eres tu, debes identificar a esta persona antes de que el ladron se acerque a robarle y advertirle para salir del bus.' };
 
+    this.celdas[3][7] = { imagen: "../assets/javier/tiburon1.3.jpg", parrafo: 'Si golpea a algun humano por accidente estos lo atacaran de vuelta.' };
+    this.celdas[4][7] = { imagen: "../assets/javier/tiburon1.4.jpg", parrafo: 'Que los enemigos usen habilidades de artes marciales y al derrotarlos aprenderlas.' };
 
+    this.celdas[5][8] = { imagen: "../assets/javier/laberinto1.3.jpg", parrafo: 'Eres un niño pequeño en el laberinto y te persigue una sombra, al final del juego descubres que la sombra siempre fuiste tu mismo.' };
+    this.celdas[6][8] = { imagen: "../assets/javier/laberinto1.4.jpg", parrafo: 'El laberinto es un espacio pequeño y el piso esta mojado, conforme pasa el tiempo el nivel de agua sube, si no escapas a tiempo terminaras agohandote. El agua hace que vayas mas lento y no sabes nadar.' };
 
+    this.celdas[4][9] = { imagen: "../assets/javier/escapeisla2.jpg", parrafo: 'Puedes atacar a los policias para tomar su ropa y ser inmune a la luz por unos segundos.' };
+    this.celdas[5][9] = { imagen: "../assets/javier/escapeisla1.jpg", parrafo: 'En lugar de escapar de una prision estas tratando de escapar de un monstruo con vision limitada.' };
 
+    this.celdas[3][1] = { imagen: "../assets/javier/monigote1.jpg", parrafo: 'Hay un monigote gigantes con explisivos que explota cuando se acerca a ti.' };
+    this.celdas[4][1] = { imagen: "../assets/javier/monigote2.jpg", parrafo: 'En lugar de escapar del fuego estas atrapando a las personas para ponerlas en el fuego, todo esto para realizar una invocacion del diablo para hacer un pacto con este y devolvertle la vida a tu madre.' };
 
+    this.celdas[7][4] = { imagen: "../assets/javier/perro2.jpg", parrafo: 'Cada noche se duplica la cantidad de perros buscandote' };
+    this.celdas[8][4] = { imagen: "../assets/javier/perro1.jpg", parrafo: 'Durante el dia el perro desaparece y puedes salir a recolectar cosas.' };
 
+    this.celdas[5][5] = { imagen: "../assets/javier/zombiesespol1.jpg", parrafo: 'Debes aguantar la orda de zombies junto al monumento espol hasta que lleguen a rescatarte en helicptero.' };
+    this.celdas[6][5] = { imagen: "../assets/javier/zombiesespol2.jpg", parrafo: 'Hay diferentes tipos de zombies segun el tipo de estudiante infectado. Hay zombies inteligentes.' };
 
+    this.celdas[7][0] = { imagen: "../assets/javier/escapecarcel1.jpg", parrafo: 'Tienes una barra de estamina, lo que significa que nop puedes estar trepado en las paredes por mucho tiempo y no puedes correr sin cansarte.' };
+    this.celdas[8][0] = { imagen: "../assets/javier/escapecarcel2.jpg", parrafo: 'Mientras vas avanzando en los niveles descubres que hay un monstruo en la carcel que esta matando a todos los policias, asi que pasas de escapar de policias a escapar de un monstruo' };
 
-
-
+    this.celdas[5][6] = { imagen: "../assets/javier/choreo3.jpg", parrafo: 'Eres guardia en un banco y debes decidir si dejar pasar a las personas que van llegando, si dejas pasar a un ladron pierdes.' };
+    this.celdas[6][6] = { imagen: "../assets/javier/choreo4.jpg", parrafo: 'Eres jefe de un atraco a un banco y sospechas que hay un soplon en tu equipo, debes descubrir quien es durante la mision antes del momento de su traicion.' };
 
 
 
@@ -81,6 +97,36 @@ export class AppComponent {
 
     //ESPACIO AARON
 
+    //Mis ideas
+
+    this.celdas[0][9] = { imagen: "../assets/aaron/escape.PNG", parrafo: 'Es un juego en 2d de una prision en medio de un lago, el jugador es un prisionero que debe evitar el campo de vision de las luces para poder escapar del lago.' };
+    this.celdas[0][8] = { imagen: "../assets/aaron/laberinto.PNG", parrafo: 'Juego en 3d, es un laberinto que se repite en bucle, hasta que el jugador logra resolver una serie de acertijos y escapar' };
+    this.celdas[0][6] = { imagen: "../assets/aaron/choreo.PNG", parrafo: 'Juego en tercera persona casual simulador de choreo en busetas, es un simulador que tiene como objetivo identificar actividades sospechosas de delitos en Ecuador, el jugador  debe tomar decisiones acertadas para identificar quien es el ladrón  sin cometer errores, esto antes de que el ladrón logre ejecutar el delito.' };
+
+
+    //Mis variaciones
+
+    this.celdas[1][0] = { imagen: "../assets/aaron/prision_rediseno.jpg", parrafo: 'El juego posee varias habitaciones en 2d con mapa expandible, no un endless runner' };
+    this.celdas[2][0] = { imagen: "../assets/aaron/prision_ataque.jpg", parrafo: 'Se puede atacar a los guardias como medida preventiva para huir' };
+    this.celdas[3][0] = { imagen: "../assets/aaron/prision_distraer.jpg", parrafo: 'Se pueden tirar objetos para distraer y moverse por algun sector' };
+    this.celdas[4][0] = { imagen: "../assets/aaron/prision_matar.jpg", parrafo: 'Se pueden conseguir armas y matar a policias, pero esto generara alertas' };
+    this.celdas[5][0] = { imagen: "../assets/aaron/prision_respawn.jpg", parrafo: 'Si te vuelven a capturar respawneas pero en una prision de mayor seguridad' };
+    this.celdas[6][0] = { imagen: "../assets/aaron/prision_vigia.jpg", parrafo: 'Los guardias a veces se duermen pero si son alertados entrar en estado de vigia' };
+
+    this.celdas[3][8] = { imagen: "../assets/aaron/kungfu_puntos.jpg", parrafo: 'El tiburon gana xp y puntos alimentadnose de peces en el camino' };
+    this.celdas[4][8] = { imagen: "../assets/aaron/kungfu_tipos.jpg", parrafo: 'Hay varios tipos de tiburones con especialidades de pelea' };
+
+    this.celdas[1][4] = { imagen: "../assets/aaron/perroescondite_distraer.jpg", parrafo: 'Se puede distraer al perro lanzando huesos, comida, etc' };
+    this.celdas[2][4] = { imagen: "../assets/aaron/perroescondite_domar.jpg", parrafo: 'Se puede domar otros perros o animales para protegerte' };
+    this.celdas[3][4] = { imagen: "../assets/aaron/perroescondite_evol.jpg", parrafo: 'Con el paso de los niveles, el perro se hace mas grande y fuerte, es decir que evoluciona' };
+    this.celdas[4][4] = { imagen: "../assets/aaron/perroescondite_lento.jpg", parrafo: 'Si estas herido, caminas mas lento y no puedes correr' };
+    this.celdas[5][4] = { imagen: "../assets/aaron/perroescondite_niveles.jpg", parrafo: 'Cada noche es un nivel, se debe sobrevivir una n cantidad de noches' };
+    this.celdas[6][4] = { imagen: "../assets/aaron/perroescondite_tranquil.jpg", parrafo: 'Existe una pistola con dardos tranquilizantes para usar en el perro por emergencias' };
+
+    this.celdas[3][9] = { imagen: "../assets/aaron/prisionlago_sabotear.jpg", parrafo: 'Existe la posibilidad de sabotear las torres de luz para ganar ventaja' };
+
+    this.celdas[3][5] = { imagen: "../assets/aaron/zombiespol_clases.jpg", parrafo: 'Cada facultad tiene clases, es decir alumnos especializados en areas que serviran para sobrevivir, ejemplo: medico, mecanico, artillero, hacker, etc' };
+    this.celdas[4][5] = { imagen: "../assets/aaron/zombiespol_zonasseguras.jpg", parrafo: 'Las zonas seguras pueden ser comedores, o ubep, donde se puede recuperar puntos de vida' };
 
 
 
