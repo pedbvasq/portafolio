@@ -10,7 +10,7 @@ export class AppComponent {
   celdas: { imagen: string; parrafo: string }[][];
 
   constructor() {
-    this.celdas = Array.from({ length: 10 }, () => Array(10).fill({ imagen: '', parrafo: '' }));
+    this.celdas = Array.from({ length: 12 }, () => Array(10).fill({ imagen: '', parrafo: '' }));
 
     //ESPACIO PARA PEDRO
     this.celdas[0][0] = { imagen: "../assets/pedro/EscapeDecarcel.png", parrafo: 'Es un juego 2d donde un ladron tiene que escapar de los guardias para hacerlo no tiene que ser visto, puede trepar paredes o esconderse, los guardias tienen linternas si lo notan lo llevaran a la carcel de nuevo' };
@@ -230,6 +230,21 @@ export class AppComponent {
 
     
     this.celdas[0][7] = {imagen :"../assets/kevin/shark-fu.jpg", parrafo: 'Un tiburón experto en artes marciales deberá enfrentarse a los peligros del mar para proteger a los nadadores locales.'};
+
+    this.celdas[10][0] = {imagen :"../assets/santiago/1.1.jpg", parrafo: `Eres el hijo de la dueña de un restaurante en Ecuador que se opone a la corrupción y la vacunación forzada por delincuentes. Tras el asesinato de tu madre y la injusta sentencia de un mes para los criminales, decides golpear al juez corrupto para unirte a la misma prisión que los asesinos y vengar a tu madre antes de su liberación. En prisión, debes forjar alianzas con otros delincuentes, sobornar a policías y unirte a una pandilla, lo que a veces implica cometer actos atroces. Cada elección tiene consecuencias, y cada día que pasa te acerca más a la liberación de los asesinos de tu madre.`};
+    this.celdas[11][0] = {imagen :"../assets/santiago/1.2.jpg", parrafo: `Un grupo de científicos ha estado experimentando con cyborgs para mejorar las habilidades de las personas comunes. Sin embargo, surgió un problema: la conexión de estas nuevas tecnologías con los cuerpos de los usuarios ha afectado su mente, y ahora están atacando a cualquiera que encuentren. Tú eres el encargado de la seguridad en el laboratorio subterráneo y debes colocar obstáculos para evitar que estos ciborgs salgan y amenacen al resto del planeta. Eres la última esperanza para evitar su escape.`};
+    this.celdas[10][1] = {imagen :"../assets/santiago/2.1.jpg", parrafo: `Este año nuevo  es diferente a cualquier otra en Ecuador, ya que habrá una luna de sangre total justo cuando el reloj marque el nuevo año. Dándoles vida a los monigotes con explosivos en su interior, estos, hartos de este abuso y masacre anuales, se revelan. Junto con los explosivos en su interior, pretenden hacer estallar a tantos humanos como puedan, al estilo kamikaze. Puedes elegir estar del lado de los monigotes o de los humanos, y quien quede en pie al final de la luna de sangre será el ganador.`};
+    this.celdas[11][1] = {imagen :"../assets/santiago/2.2.jpg", parrafo: `Estás en una fiesta de Año Nuevo, celebrando con tus amigos y familiares, cuando de repente un asesino recién salido de la cárcel irrumpe en la celebración. La gente, aterrorizada, intenta esconderse o enfrentarlo, pero sus esfuerzos son en vano. Tu misión es ocultarte hasta que amanezca, esperando a que la policía llegue y logres sobrevivir.`};
+    this.celdas[10][2] = {imagen :"../assets/santiago/3.jpg", parrafo: `Eres un niño que ladrón que quiere llevarse todo lo que más pueda del museo pero no te tienes que dejar ver por los guardias.`};
+    this.celdas[11][2] = {imagen :"../assets/santiago/3.jpg", parrafo: `Eres un guardia que fue advertido que esta noche algunos ladrones va a intentar atracar el museo y tienes que descubrir la mayor cantidad de ellos.`};
+    this.celdas[10][3] = {imagen :"../assets/santiago/4.1.jpg", parrafo: `Tu y tu pareja fueron secuestrados por un lunático y están siendo obligados a jugar una serie de juegos en donde el perdedor va a perder una parte del cuerpo hasta que solo quede uno con vida. Preferirias sobrevivir o morir por tu amad@.`};
+    this.celdas[11][3] = {imagen :"../assets/santiago/4.2.jpg", parrafo: `Una pareja que iban a celebrar su aniversario en un crucero pero el novio llego tarde y tenia qque ir a la siguiente parada del crucero y cuanod se dio cuenta el crucero habiaa desaparecido tu tienes que encontrar pista para saber el paradero de tu amad@.`};
+    this.celdas[10][4] = {imagen :"../assets/santiago/5.1.jpg", parrafo: `Un perro fantasma que esta aterrorizando las casa y tienes que atraparlo antes de que haga mas daños.`};
+    this.celdas[11][4] = {imagen :"../assets/santiago/5.2.jpg", parrafo: `Unos chicos invocaron un perro del otor mmundo ahora tiene que esconderse por 24h si no quieren morir.`};
+    this.celdas[10][5] = {imagen :"../assets/santiago/6.1.jpg", parrafo: `Distrae a los zombies con un dispositivo en el bus de espol mientras vas a buscar la cura del virus.`};
+    this.celdas[11][5] = {imagen :"../assets/santiago/6.2.jpg", parrafo: `Eres el zombie lider y tienes que redirigir a tus tropas a lugares estrategicos para contagiar a toda ESPOL si se te acaban las tropas y aun no tantagiaste a todos perdiste.`};
+    this.celdas[10][6] = {imagen :"../assets/santiago/7.jpg", parrafo: `Eres un usuario comun del bus y tienes que ayudar a identificar si es un ladron o no por pistas.`};
+    this.celdas[11][6] = {imagen :"../assets/santiago/7.jpg", parrafo: `Eres un ladron y tienes que robarle a todos antes que algun policia se de cuenta y te atrape.`};
 
 
 
